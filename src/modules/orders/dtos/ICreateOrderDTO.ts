@@ -8,5 +8,6 @@ interface IProduct {
 
 export default interface ICreateOrderDTO {
   customer: Customer;
+  price: number;
   products: IProduct[];
 }
